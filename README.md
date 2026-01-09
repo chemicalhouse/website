@@ -109,6 +109,40 @@ To adjust the logo appearance, edit `src/components/Header.css`:
 - `.logo` class controls the container styling
 - `.logo-image` class controls the image sizing and effects
 
+## GitHub Pages Deployment
+
+This project is configured to automatically deploy to GitHub Pages using GitHub Actions.
+
+### Automatic Deployment
+
+1. Push code to the `main` branch
+2. GitHub Actions will automatically build and deploy to GitHub Pages
+3. The site will be available at: `https://chemicalhouse.github.io/website/`
+
+### Manual Deployment
+
+You can also deploy manually using:
+
+```bash
+npm run deploy
+```
+
+This will build the project and push the `dist` folder to the `gh-pages` branch.
+
+### Base Path Configuration
+
+The `vite.config.ts` file is configured with `base: '/website/'` for the repository name. If you change the repository name or want to deploy to a custom domain, update the `base` path in `vite.config.ts`:
+
+- For repository root deployment: `base: '/'`
+- For custom domain: `base: '/'` (and configure the domain in GitHub repository settings)
+
+### Enabling GitHub Pages
+
+1. Go to your repository settings on GitHub
+2. Navigate to "Pages" in the left sidebar
+3. Under "Source", select "GitHub Actions"
+4. The site will be automatically deployed when you push to the main branch
+
 ## License
 
 This project is private and proprietary.
