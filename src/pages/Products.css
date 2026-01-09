@@ -1,0 +1,199 @@
+.products {
+  min-height: 100vh;
+}
+
+.products-hero {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  padding: 6rem 2rem;
+  text-align: center;
+}
+
+.products-hero .container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.products-hero h1 {
+  font-size: 3rem;
+  margin: 0 0 1rem;
+  font-weight: 700;
+}
+
+.products-hero .subtitle {
+  font-size: 1.2rem;
+  opacity: 0.95;
+  margin: 0;
+}
+
+.products-content {
+  padding: 4rem 2rem;
+}
+
+.products-content .container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.intro-text {
+  margin-bottom: 3rem;
+  text-align: center;
+}
+
+.intro-text p {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  color: #555;
+  margin: 0;
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.categories-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  gap: 2rem;
+  margin-bottom: 4rem;
+}
+
+.category-card {
+  background: white;
+  border: 1px solid #e0e0e0;
+  border-radius: 12px;
+  padding: 2rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.category-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.15);
+}
+
+.category-card h3 {
+  margin: 0 0 1rem;
+  color: #1a1a2e;
+  font-size: 1.5rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 2px solid #667eea;
+}
+
+.category-description {
+  color: #666;
+  line-height: 1.7;
+  margin: 0 0 1.5rem;
+}
+
+.products-list h4 {
+  margin: 0 0 0.8rem;
+  color: #1a1a2e;
+  font-size: 1rem;
+}
+
+.products-list ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.products-list li {
+  padding: 0.5rem 0;
+  color: #555;
+  border-bottom: 1px solid #f0f0f0;
+}
+
+.products-list li:last-child {
+  border-bottom: none;
+}
+
+.products-list li::before {
+  content: "▸ ";
+  color: #667eea;
+  font-weight: bold;
+  margin-right: 0.5rem;
+}
+
+.product-features {
+  margin-top: 4rem;
+  padding-top: 3rem;
+  border-top: 2px solid #e0e0e0;
+}
+
+.product-features h2 {
+  text-align: center;
+  font-size: 2.2rem;
+  color: #1a1a2e;
+  margin: 0 0 2rem;
+}
+
+.features-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+}
+
+.feature-item {
+  background: #f8f9fa;
+  padding: 2rem;
+  border-radius: 12px;
+  border-left: 4px solid #667eea;
+}
+
+.feature-item h3 {
+  margin: 0 0 1rem;
+  color: #1a1a2e;
+  font-size: 1.2rem;
+}
+
+.feature-item p {
+  margin: 0;
+  color: #666;
+  line-height: 1.7;
+}
+
+.inquiry-section {
+  margin-top: 4rem;
+  padding: 3rem;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  border-radius: 12px;
+  text-align: center;
+}
+
+.inquiry-section h2 {
+  margin: 0 0 1rem;
+  font-size: 2rem;
+}
+
+.inquiry-section p {
+  margin: 0 0 2rem;
+  font-size: 1.1rem;
+  opacity: 0.95;
+}
+
+.inquiry-section .btn {
+  padding: 1rem 2rem;
+  background: white;
+  color: #667eea;
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: 600;
+  display: inline-block;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.inquiry-section .btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+@media (max-width: 768px) {
+  .products-hero h1 {
+    font-size: 2.2rem;
+  }
+
+  .categories-grid {
+    grid-template-columns: 1fr;
+  }
+}
