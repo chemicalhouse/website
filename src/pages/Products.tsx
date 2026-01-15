@@ -6,7 +6,7 @@ function Products() {
     {
       name: "Industrial Chemicals",
       description: "Essential chemicals for manufacturing and industrial processes",
-      products: ["Acids & Bases", "Solvents", "Catalysts", "Reagents"]
+      products: ["IP Grade", "Technical Grade", "Electroplating Chemicals", "Aquaculture Grade", "Solvents", "Catalysts", "Reagents"]
     },
     {
       name: "Specialty Chemicals",
@@ -16,22 +16,37 @@ function Products() {
     {
       name: "Laboratory Chemicals",
       description: "High-purity chemicals for research and analytical applications",
-      products: ["Analytical Reagents", "Research Grade", "Pharmaceutical Grade"]
-    },
-    {
-      name: "Agricultural Chemicals",
-      description: "Chemicals for agricultural and farming applications",
-      products: ["Fertilizers", "Pesticides", "Herbicides", "Growth Regulators"]
+      products: ["Analytical Reagents", "Research Grade", "Pharmaceutical Grade", "ICP Standards", "AAS Standards"]
     },
     {
       name: "Water Treatment Chemicals",
       description: "Chemicals for water purification and treatment processes",
-      products: ["Coagulants", "Disinfectants", "pH Adjusters", "Flocculants"]
+      products: ["Coagulants", "Disinfectants", "pH Adjusters", "Flocculants", "Pool Cleaning Chemicals"]
     },
     {
       name: "Cleaning & Sanitization",
       description: "Professional-grade cleaning and sanitization products",
       products: ["Industrial Cleaners", "Sanitizers", "Disinfectants", "Degreasers"]
+    },
+    {
+      name: "Equipments",
+      description: "Laboratory and industrial equipment for chemical processing and analysis",
+      products: ["Laboratory Equipment", "Industrial Equipment", "Analytical Instruments"]
+    },
+    {
+      name: "Plasticware",
+      description: "High-quality plastic laboratory and industrial containers and accessories",
+      products: ["Laboratory Plasticware", "Storage Containers", "Industrial Plasticware"]
+    },
+    {
+      name: "Glassware",
+      description: "Precision glassware for laboratory and industrial applications",
+      products: ["Laboratory Glassware", "Measuring Instruments", "Specialized Glassware"]
+    },
+    {
+      name: "Filtration Products",
+      description: "Filtration solutions for laboratory and industrial processes",
+      products: ["Filter Papers", "Membrane Filters", "Filtration Systems", "Filter Accessories"]
     }
   ]
 

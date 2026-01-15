@@ -3,7 +3,7 @@
 }
 
 .suppliers-hero {
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: linear-gradient(135deg, #4A90E2 0%, #FF6B35 100%);
   color: white;
   padding: 6rem 2rem;
   text-align: center;
@@ -53,128 +53,54 @@
   margin-right: auto;
 }
 
-.suppliers-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
-  gap: 2rem;
-  margin-bottom: 4rem;
+.under-construction {
+  text-align: center;
+  padding: 4rem 2rem;
+  max-width: 800px;
+  margin: 0 auto;
 }
 
-.supplier-card {
-  background: white;
-  border: 1px solid #e0e0e0;
-  border-radius: 12px;
-  padding: 2rem;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  transition: transform 0.3s, box-shadow 0.3s;
-}
-
-.supplier-card:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.15);
-}
-
-.supplier-header {
+.construction-icon {
+  margin: 0 auto 2rem;
+  color: #4A90E2;
   display: flex;
-  justify-content: space-between;
-  align-items: start;
-  margin-bottom: 1rem;
-  flex-wrap: wrap;
-  gap: 0.5rem;
+  justify-content: center;
+  align-items: center;
 }
 
-.supplier-header h3 {
-  margin: 0;
+.under-construction h2 {
+  font-size: 2.5rem;
   color: #1a1a2e;
-  font-size: 1.4rem;
-  flex: 1;
-}
-
-.supplier-location {
-  background: #667eea;
-  color: white;
-  padding: 0.3rem 0.8rem;
-  border-radius: 20px;
-  font-size: 0.85rem;
-  font-weight: 500;
-}
-
-.supplier-description {
-  color: #666;
-  line-height: 1.7;
   margin: 0 0 1.5rem;
 }
 
-.supplier-specialties h4 {
-  margin: 0 0 0.8rem;
-  color: #1a1a2e;
-  font-size: 1rem;
+.under-construction p {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  color: #555;
+  margin: 0 0 1.5rem;
 }
 
-.specialty-tags {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.5rem;
-}
-
-.tag {
-  background: #f0f0f0;
-  color: #667eea;
-  padding: 0.4rem 0.8rem;
-  border-radius: 20px;
-  font-size: 0.85rem;
-  font-weight: 500;
-  border: 1px solid #e0e0e0;
-}
-
-.partnership-info {
-  margin-top: 4rem;
-  padding-top: 3rem;
+.under-construction .contact-note {
+  margin-top: 2rem;
+  padding-top: 2rem;
   border-top: 2px solid #e0e0e0;
 }
 
-.partnership-info h2 {
-  text-align: center;
-  font-size: 2.2rem;
-  color: #1a1a2e;
-  margin: 0 0 2rem;
+.under-construction .contact-note a {
+  color: #4A90E2;
+  text-decoration: none;
+  font-weight: 600;
+  transition: color 0.3s;
 }
 
-.benefits-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  gap: 2rem;
-}
-
-.benefit-item {
-  background: #f8f9fa;
-  padding: 2rem;
-  border-radius: 12px;
-  border-left: 4px solid #667eea;
-}
-
-.benefit-item h3 {
-  margin: 0 0 1rem;
-  color: #1a1a2e;
-  font-size: 1.2rem;
-}
-
-.benefit-item p {
-  margin: 0;
-  color: #666;
-  line-height: 1.7;
+.under-construction .contact-note a:hover {
+  color: #FF6B35;
+  text-decoration: underline;
 }
 
 @media (max-width: 768px) {
   .suppliers-hero h1 {
     font-size: 2.2rem;
-  }
-
-  .suppliers-grid {
-    grid-template-columns: 1fr;
-  }
-
-  .supplier-header {
-    flex-direction: column;
   }
 }

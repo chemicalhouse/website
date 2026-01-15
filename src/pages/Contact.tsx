@@ -54,24 +54,24 @@ function Contact() {
               <div className="info-item">
                 <div className="info-icon">📍</div>
                 <div>
-                  <h3>Address</h3>
-                  <p>41/1834 B, Veekay Tower<br />T.A.Beerankunju Road, Ernakulam North<br />Ernakulam-682018, Kerala, India</p>
+                  <h3>Head Office</h3>
+                  <p>M/s. CHEMICAL HOUSE<br />66/1727, Vee Kay Tower<br />T.A.Beeran Kunju Road, Ernakulam North<br />Kochi – 18, Kerala, India</p>
+                  <p style={{marginTop: '0.5rem', fontSize: '0.95rem'}}>
+                    <strong>Tel:</strong> +91 484 401 7551, +91 9539015353<br />
+                    <strong>E-mail:</strong> chemicalhouseinfo@gmail.com
+                  </p>
                 </div>
               </div>
 
               <div className="info-item">
-                <div className="info-icon">📞</div>
+                <div className="info-icon">📍</div>
                 <div>
-                  <h3>Phone</h3>
-                  <p>Main: +91-XXXXX-XXXXX<br />Mobile: +91-XXXXX-XXXXX<br />Sales: +91-XXXXX-XXXXX</p>
-                </div>
-              </div>
-
-              <div className="info-item">
-                <div className="info-icon">✉️</div>
-                <div>
-                  <h3>Email</h3>
-                  <p>General: info@chemicalhouse.com<br />Sales: sales@chemicalhouse.com<br />Inquiries: inquiry@chemicalhouse.com</p>
+                  <h3>Branch Office</h3>
+                  <p>M/s. CHEMICAL HOUSE<br />TC- 4/2099/6, Mispah, Meads Lane<br />University P.O. Palayam<br />Thiruvananthapuram-34, Kerala, India</p>
+                  <p style={{marginTop: '0.5rem', fontSize: '0.95rem'}}>
+                    <strong>Tel:</strong> +91 471 4017551, 8129099912, 8129099978<br />
+                    <strong>E-mail:</strong> chemicalhouse41@gmail.com
+                  </p>
                 </div>
               </div>
 
@@ -79,7 +79,7 @@ function Contact() {
                 <div className="info-icon">🕒</div>
                 <div>
                   <h3>Business Hours</h3>
-                  <p>Monday - Saturday: 9:00 AM - 7:00 PM<br />Sunday: Closed<br />Holidays: As per government calendar</p>
+                  <p>Monday - Friday: 9:30 AM - 5:30 PM<br />Saturday: 9:30 AM - 2:30 PM<br />Sunday: Closed</p>
                 </div>
               </div>
             </div>

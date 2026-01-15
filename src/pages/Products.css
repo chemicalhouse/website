@@ -3,7 +3,7 @@
 }
 
 .products-hero {
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: linear-gradient(135deg, #4A90E2 0%, #FF6B35 100%);
   color: white;
   padding: 6rem 2rem;
   text-align: center;
@@ -76,7 +76,7 @@
   color: #1a1a2e;
   font-size: 1.5rem;
   padding-bottom: 0.5rem;
-  border-bottom: 2px solid #667eea;
+  border-bottom: 2px solid #4A90E2;
 }
 
 .category-description {
@@ -109,7 +109,7 @@
 
 .products-list li::before {
   content: "▸ ";
-  color: #667eea;
+  color: #FF6B35;
   font-weight: bold;
   margin-right: 0.5rem;
 }
@@ -137,7 +137,7 @@
   background: #f8f9fa;
   padding: 2rem;
   border-radius: 12px;
-  border-left: 4px solid #667eea;
+  border-left: 4px solid #4A90E2;
 }
 
 .feature-item h3 {
@@ -155,7 +155,7 @@
 .inquiry-section {
   margin-top: 4rem;
   padding: 3rem;
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: linear-gradient(135deg, #4A90E2 0%, #FF6B35 100%);
   color: white;
   border-radius: 12px;
   text-align: center;
@@ -175,7 +175,7 @@
 .inquiry-section .btn {
   padding: 1rem 2rem;
   background: white;
-  color: #667eea;
+  color: #4A90E2;
   text-decoration: none;
   border-radius: 8px;
   font-weight: 600;

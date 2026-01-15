@@ -3,7 +3,7 @@
 }
 
 .about-hero {
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: linear-gradient(135deg, #4A90E2 0%, #FF6B35 100%);
   color: white;
   padding: 6rem 2rem;
   text-align: center;
@@ -44,7 +44,7 @@
   color: #1a1a2e;
   margin: 0 0 1.5rem;
   padding-bottom: 1rem;
-  border-bottom: 3px solid #667eea;
+  border-bottom: 3px solid #4A90E2;
 }
 
 .about-section p {
@@ -65,7 +65,7 @@
   background: #f8f9fa;
   padding: 2rem;
   border-radius: 12px;
-  border-top: 4px solid #667eea;
+  border-top: 4px solid #4A90E2;
 }
 
 .value-item h3 {
@@ -90,7 +90,7 @@
   padding: 1rem;
   margin: 0.5rem 0;
   background: #f8f9fa;
-  border-left: 4px solid #667eea;
+  border-left: 4px solid #FF6B35;
   border-radius: 6px;
   font-size: 1.1rem;
   color: #555;
@@ -98,7 +98,7 @@
 
 .benefits-list li::before {
   content: "✓ ";
-  color: #667eea;
+  color: #4A90E2;
   font-weight: bold;
   margin-right: 0.5rem;
 }
